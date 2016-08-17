@@ -1,0 +1,56 @@
+.navbar {
+  background-color: white;
+  border: none; }
+  .navbar .navbar-brand {
+    line-height: 130px;
+    height: 130px;
+    padding-top: 0;
+    font-size: 2.5em;
+    font-family: Flatform;
+    font-weight: 300;
+    color: #4d4d4d; }
+  .navbar .navbar-nav li a {
+    line-height: 130px;
+    height: 130px;
+    padding-top: 0;
+    font-family: OpenSans;
+    font-size: 16;
+    font-weight: 400;
+    color: #4d4d4d; }
+    .navbar .navbar-nav li a:hover {
+      text-decoration: underline;
+      color: #4d4d4d !important; }
+
+header {
+  background-image: url(../../img/Layer-11.png);
+  background-size: 1920px auto;
+  background-repeat: no-repeat;
+  height: 652px;
+  padding-top: 227px;
+  text-align: center; }
+  header h1 {
+    font-family: Satellite;
+    font-size: 3.125em;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center; }
+  header p {
+    font-family: OpenSans;
+    font-size: 1em;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center; }
+  header a {
+    font-family: OpenSans;
+    font-size: 1.125em;
+    font-weight: 600;
+    display: inline-block;
+    height: 49px;
+    width: 290px;
+    border-radius: 25px;
+    background-color: #4d4d4d;
+    text-align: center;
+    padding-top: 15px;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+$browser-context: 16; // Default
+$brand-font: Flatform;
+$mainfont: OpenSans;
+$maincolor: #4d4d4d;
+@function em($pixels, $context: $browser-context) {
+    @return #{$pixels/$context}em
+}
+
+.navbar {
+    background-color: white;
+    border: none;
+    .navbar-brand {
+        line-height: 130px;
+        height: 130px;
+        padding-top: 0;
+        font-size: em(40);
+        font-family: $brand-font;
+        font-weight: 300;
+        color: $maincolor;
+    }
+    .navbar-nav {
+        li {
+            a {
+                line-height: 130px;
+                height: 130px;
+                padding-top: 0;
+                font-family: $mainfont;
+                font-size: 16;
+                font-weight: 400;
+                color: $maincolor;
+                &:hover {
+                    text-decoration: underline;
+                    color: $maincolor !important;
+                }
+            }
+        }
+    }
+    
+}
+header {
+    background-image:url(../../img/Layer-11.png);
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+    height: 652px;
+    padding-top: 227px;
+    text-align: center;
+    h1 {
+        font-family: Satellite;
+        font-size: em(50);
+        font-weight: 400;
+        color: $maincolor;
+        text-align: center;
+    }
+    p {
+        font-family: $mainfont;
+        font-size: em(16);
+        font-weight: 400;
+        color: $maincolor;
+        text-align: center;
+    }
+    a {
+        font-family: $mainfont;
+        font-size: em(18);
+        font-weight: 600;
+        display: inline-block;
+        height: 49px;
+        width: 290px;
+        border-radius: 25px;
+        background-color: $maincolor;
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+        
+    }
+        
+}
